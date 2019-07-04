@@ -16,9 +16,12 @@
     sudo apt-get install inkscape
 
 ### Настройка vim-plug
-Введя команду 
-    vim ~/.vimrc    
+Введя команду
+
+    vim ~/.vimrc
+    
 настариваем vim-plug сдедующим образом
+
     call plug#begin('~/.vim/plugged')
     Plug 'pearofducks/ansible-vim'
     
