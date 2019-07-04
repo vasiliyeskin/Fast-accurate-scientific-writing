@@ -4,7 +4,7 @@
 
 Далее привожу настройки среды написания текстов для получения результатов близких к описанным выше в хабра-постах.
 
-## Настройка среды
+## Настройка среды в Ubuntu
 Установка vim, zathura, vimtex, vim-plug, vim-shippets, latex, inkscape:
 
     sudo apt-get install vim
