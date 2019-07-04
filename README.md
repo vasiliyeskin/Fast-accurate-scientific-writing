@@ -18,7 +18,7 @@
 ### Настройка vim-plug
 Введя команду 
     vim ~/.vimrc    
-настариваем vim-plug сдедующим образом
+настраиваем vim-plug сдедующим образом
     call plug#begin('~/.vim/plugged')
     Plug 'pearofducks/ansible-vim'
     
@@ -46,5 +46,37 @@
     nnoremap <C-f> :      silent exec '!inkscape-figures edit /home/vasiliyeskin/figures/ > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
     
     call plug#end()
+
+
+## Запуск среды и работа
+
+Запускаем файл для работы
+
+    vim test.tex
+
+В vim выполняем команды для подгрузки и установке плагинов
+
+    :PlugUpdate
+    :PlugInstall
+ 
+апдейтим сниппеты
+
+    :UltiSnipsEdit
+
+запускаем автоматическую компиляцию теховского файла в pdf
+
+    :LL
+
+Если всё сделано правильно, то откроется Zathura с результатом вашей работы. Я обычно переключаюсь в тем ны тем по нажатию **Ctrl+R** и расширяю отображаемый документы по ширине окна zathura нажатием **s**.
+
+
+
+
+
+
+
+
+
+
 
 
