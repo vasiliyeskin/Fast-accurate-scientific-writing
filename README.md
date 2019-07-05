@@ -21,7 +21,7 @@
 
     vim ~/.vimrc    
 
-настраиваем vim-plug сдедующим образом
+настраиваем vim-plug следующим образом
 
     call plug#begin('~/.vim/plugged')
     Plug 'pearofducks/ansible-vim'
@@ -44,7 +44,8 @@
     let g:UltiSnipsEditSplit="vertical"
     let g:UltiSnipsSnippetDirectories=[$HOME.'/general/path/of/snippets/']
 	
-    setlocal spell spelllang=en_gb
+    let loaded_spellfile_plugin = 1
+    setlocal spell spelllang=en_gb,ru_yo
     inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u 
     inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "/home/vasiliyeskin/figures/"'<CR><CR>:w<CR>
     nnoremap <C-f> :      silent exec '!inkscape-figures edit /home/vasiliyeskin/figures/ > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
@@ -98,7 +99,11 @@
 
 После ввода в теховском файле желаемого названия графического файла и нажатия **Ctrl+F** открывается inkscape и создаётся требуемый файл. По сохранению изменений в inscape автоматически происходит пересохранение и сопутствующих графических файлов.
 
+Осуществляется проверка правописания. Если русский словарь не загрузится попробуйте зайдите с правами администратора в настройки vim
 
+    sudo vim ~/.vimrc
+
+Должно появится предложение о догрузки необходимых словарей. По нажатию **Ctrl+L** происходит исправление ошибки в предыдущем слове.
 
 
 
