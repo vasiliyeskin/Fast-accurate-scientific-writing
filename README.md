@@ -22,6 +22,8 @@
     sudo apt install python-pip
     sudo pip install pyrebase
     sudo pip install --upgrade setuptools
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt install python3.7
     sudo pip install inkscape-figures
 
 ### Настройка vim-plug
