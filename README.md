@@ -63,7 +63,7 @@
     let g:UltiSnipsEditSplit="vertical"
     let g:UltiSnipsSnippetDirectories=[$HOME.'/general/path/of/snippets/']
 	
-    let loaded_spellfile_plugin = 1
+    let g:spellfile_URL = 'http://ftp.vim.org/vim/runtime/spell'
     setlocal spell spelllang=en_gb,ru_yo
     inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u 
     inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
