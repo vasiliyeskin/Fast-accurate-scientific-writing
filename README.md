@@ -19,14 +19,21 @@
 Для управления рисунками ставим [rofi](https://github.com/davatorium/rofi) и [inkscape figure manager](https://github.com/gillescastel/inkscape-figures)
     
     sudo apt install rofi
-    sudo apt install python-pip
+    sudo apt install python3-pip
     sudo pip install pyrebase
     sudo pip install --upgrade setuptools
     sudo add-apt-repository ppa:deadsnakes/ppa
     sudo apt install python3.7
     sudo pip install pathlib
-    sudo pip install inkscape-figures
+    sudo python3 -m pip install inkscape-figures
 
+Ставим менеджер управления сочетаниями клавиш при редактировании рисунков
+
+    git clone https://github.com/gillescastel/inkscape-shortcut-manager.git
+    sudo apt-get install  python3-xlib
+    sudo apt-get install xclip xsel
+    sudo apt-get install rxvt-unicode
+    
 ### Настройка vim-plug
 
 Введя команду 
@@ -111,7 +118,7 @@
 
 Для ускорения работы в inkscape запускаем питоновский скрипт
 
-    python ~/inkscape-shortcut-manager/main.py
+    python3 ~/inkscape-shortcut-manager/main.py
 
 
 После ввода в теховском файле желаемого названия графического файла и нажатия **Ctrl+F** открывается inkscape и создаётся требуемый файл. По сохранению изменений в inscape автоматически происходит пересохранение и сопутствующих графических файлов.
