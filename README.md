@@ -16,6 +16,12 @@
     sudo apt-get install inkscape
     sudo apt install xdotool
 
+Для управления рисунками ставим [rofi](https://github.com/davatorium/rofi) и [inkscape figure manager](https://github.com/gillescastel/inkscape-figures)
+    
+    sudo apt install rofi
+    sudo apt install python-pip
+    pip install inkscape-figures
+
 ### Настройка vim-plug
 
 Введя команду 
@@ -91,6 +97,8 @@
         \import{./figures/}{#1.pdf_tex}
     }
     \pdfsuppresswarningpagegroup=1
+
+**В корне должена быть создана папка figure**
 
 Для автоматического сохранения графического файла в форматы pdf и pdf_tex запускаем скрипт просматривающий изменение файла
 
