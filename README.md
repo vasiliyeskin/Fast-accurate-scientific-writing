@@ -72,6 +72,14 @@
     
     call plug#end()
 
+### Настройка тёмного стиля zathura
+
+Открываем настройки затуры
+    
+    vim ~/.config/zathura/zathurarc
+
+Вставляем содержимое файла zathurarc.settings
+    
 
 ## Запуск среды и работа
 
