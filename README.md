@@ -20,7 +20,9 @@
     
     sudo apt install rofi
     sudo apt install python-pip
-    pip install inkscape-figures
+    sudo pip install pyrebase
+    sudo pip install --upgrade setuptools
+    sudo pip install inkscape-figures
 
 ### Настройка vim-plug
 
