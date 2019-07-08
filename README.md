@@ -14,6 +14,7 @@
     sudo apt-get install vim-snippets
     sudo apt-get install texlive texlive-full
     sudo apt-get install inkscape
+    sudo apt install xdotool
 
 ### Настройка vim-plug
 
@@ -65,9 +66,11 @@
     :PlugUpdate
     :PlugInstall
  
-Апдейтим сниппеты (если нужно)
+Апдейтим сниппеты
 
     :UltiSnipsEdit
+
+В отктывшийся файл загружаем простыню сниппетов из файла tex.snippets.
 
 запускаем автоматическую компиляцию теховского файла в pdf (на лету после обновления текста, но не рисунков)
 
