@@ -19,7 +19,7 @@
 
     sudo apt-get install texlive texlive-full
     
-либо [Miktex](https://miktex.org/howto/install-miktex-unx).
+либо [Miktex](https://miktex.org/howto/install-miktex-unx). По мне, так с миктехом меньше проблем.
 
 Для управления рисунками ставим [rofi](https://github.com/davatorium/rofi) и [inkscape figure manager](https://github.com/gillescastel/inkscape-figures)
     
