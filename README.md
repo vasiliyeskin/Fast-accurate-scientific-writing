@@ -12,9 +12,12 @@
     sudo apt-get install vimtex
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     sudo apt-get install vim-snippets
-    sudo apt-get install texlive texlive-full
     sudo apt-get install inkscape
     sudo apt install xdotool
+   
+Ставим либо texlive
+    sudo apt-get install texlive texlive-full
+либо [Miktex](https://miktex.org/howto/install-miktex-unx).
 
 Для управления рисунками ставим [rofi](https://github.com/davatorium/rofi) и [inkscape figure manager](https://github.com/gillescastel/inkscape-figures)
     
