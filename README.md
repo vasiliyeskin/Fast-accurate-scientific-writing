@@ -25,11 +25,11 @@
     
     sudo apt install rofi
     sudo apt install python3-pip
-    sudo pip install pyrebase
-    sudo pip install --upgrade setuptools
+    sudo pip3 install pyrebase
+    sudo pip3 install --upgrade setuptools
     sudo add-apt-repository ppa:deadsnakes/ppa
     sudo apt install python3.7
-    sudo pip install pathlib
+    sudo pip3 install pathlib
     sudo python3 -m pip install inkscape-figures
 
 Ставим менеджер управления сочетаниями клавиш при редактировании рисунков
