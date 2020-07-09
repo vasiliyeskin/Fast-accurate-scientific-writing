@@ -645,6 +645,66 @@ snippet vv "{\vec }" iA
 endsnippet
 
 
+####### Start beamer presentation snippets ########333
+
+snippet beamertemplate "Beamer Template" i
+pdfminorversion=4
+\documentclass{beamer}
+\mode<presentation>
+{
+  \usetheme{Madrid}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english,russian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{calc}     % (node)+(3cm,2cm)
+\usepackage{colortbl}
+\usepackage{listings}
+\lstset
+{
+    language=[LaTeX]TeX,
+    breaklines=true,
+    basicstyle=\tt\scriptsize,
+    %commentstyle=\color{green}
+    keywordstyle=\color{blue},
+    %stringstyle=\color{black}
+    identifierstyle=\color{magenta},
+}
+
+\title[$5}
+\author{$1}
+\institute{$4}
+\date{$3}
+\author[$2\hspace{28pt}]{$1}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+\usepackage{algorithmic}
+\usepackage[beamer,customcolors]{hf-tikz}
+\usetikzlibrary{tikzmark,positioning}
+\usetikzlibrary{decorations.text}
+
+\begin{document}
+{$0}
+\end{document}
+endsnippet
+
+
+
+
+
 
 
 # vim:ft=snippets
