@@ -125,6 +125,11 @@
 
 Для автоматической работы с графикой в шапке файла (до \begin{document}) прописываем команду
 
+    \usepackage{import}
+    \usepackage{xifthen}
+    \usepackage{pdfpages}
+    \usepackage{transparent}
+    
     \newcommand{\incfig}[1]{%
         \def\svgwidth{\columnwidth}
         \import{./figures/}{#1.pdf_tex}
