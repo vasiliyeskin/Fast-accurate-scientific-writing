@@ -67,6 +67,21 @@ snippet enum "Enumerate" bA
 	\item $0
 \end{enumerate}
 endsnippet
+1
+
+global !p
+
+2
+
+texMathZones = ['texMathZone'+x for x in ['A', 'AS', 'B', 'BS', 'C', 'CS', 'D', 'DS', 'E', 'ES', 'F', 'FS', 'G', 'GS', 'H', 'HS', 'I', 'IS', 'J', 'JS', 'K', 'KS', 'L', 'LS', 'DS', 'V', 'W', 'X', 'Y', 'Z']]
+
+3
+
+​
+
+4
+
+texIgnoreMathZones = ['texMathText']
 
 snippet item "Itemize" bA
 \begin{itemize}
@@ -800,6 +815,11 @@ context "math()"
 snippet &&& "&&&" iA
 \notag\\\\
 && $0
+endsnippet
+
+context "math()"
+snippet unb "underbrace" iA
+\underbrace{$2}_{$1}$0
 endsnippet
 
 
