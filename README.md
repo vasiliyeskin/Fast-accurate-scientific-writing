@@ -32,7 +32,11 @@
     sudo pip3 install pathlib
     sudo python3 -m pip install inkscape-figures
 
-Отмечу, для корректной работы inkscape-figures необходим python версии >=3.7
+Отмечу, для корректной работы inkscape-figures необходим python версии >=3.7.
+Назначте эту версию питона по-умолчанию:
+
+    sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
+    sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 
 Ставим менеджер управления сочетаниями клавиш при редактировании рисунков
 
