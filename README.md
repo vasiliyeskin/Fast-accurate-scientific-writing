@@ -32,6 +32,8 @@
     sudo pip3 install pathlib
     sudo python3 -m pip install inkscape-figures
 
+Отмечу, для корректной работы inkscape-figures необходим python версии >=3.7
+
 Ставим менеджер управления сочетаниями клавиш при редактировании рисунков
 
     git clone https://github.com/gillescastel/inkscape-shortcut-manager.git
