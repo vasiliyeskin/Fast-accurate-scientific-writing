@@ -1,6 +1,7 @@
 # Fast-accurate-scientific-writing
 
 Заметка навеяна технологией быстрого написания математических конспектов, опубликованных [здесь](https://habr.com/ru/post/445066/) и [здесь](https://habr.com/ru/post/450088/).
+Исходные тексты к тем, что были на хабре: быстрый набор - [https://castel.dev/post/lecture-notes-1/](https://castel.dev/post/lecture-notes-1/); рисование - [https://castel.dev/post/lecture-notes-2/](https://castel.dev/post/lecture-notes-2/)
 
 Далее привожу настройки среды написания текстов для получения результатов близких к описанным выше в хабра-постах.
 
