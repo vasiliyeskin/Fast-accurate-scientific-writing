@@ -165,7 +165,10 @@
 
 
 
+### Vim tutorials
 
+https://www.openvim.com/
+https://www.udemy.com/course/learn-vim-for-beginners/?gclid=CjwKCAiAnvj9BRA4EiwAuUMDf-prjqXYxt6VXxuK0r-x9QWhLAPQObix50HytBjUbeVS0nsPy7tE2BoCpfEQAvD_BwE&matchtype=e&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_80675504082_._ad_478977506795_._kw_vim+text+editor+tutorial_._de_c_._dm__._pl__._ti_kwd-828088591612_._li_1011981_._pd__._
 
 
 
