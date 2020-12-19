@@ -34,7 +34,7 @@
     sudo python3 -m pip install inkscape-figures
 
 Отмечу, для корректной работы inkscape-figures необходим python версии >=3.7.
-Назначте эту версию питона по-умолчанию:
+Назначте эту версию питона по-умолчанию ():
 
     sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
     sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
@@ -151,7 +151,7 @@
 
 Для ускорения работы в inkscape запускаем питоновский скрипт
 
-    python3 ~/inkscape-shortcut-manager/main.py
+    python3.7 ~/inkscape-shortcut-manager/main.py
 
 
 После ввода в теховском файле желаемого названия графического файла и нажатия **Ctrl+F** открывается inkscape и создаётся требуемый файл. По сохранению изменений в inscape автоматически происходит пересохранение и сопутствующих графических файлов.
