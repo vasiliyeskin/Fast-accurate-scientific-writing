@@ -177,4 +177,4 @@ https://www.udemy.com/course/learn-vim-for-beginners/?gclid=CjwKCAiAnvj9BRA4EiwA
 
 
 
-
+For the managing references install Mendeley desctop https://kifarunix.com/install-and-use-mendeley-in-ubuntu-20-04/
